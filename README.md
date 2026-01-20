@@ -5,7 +5,7 @@
 
 .... The application is built using Streamlit for the user interface and Groq API for AI-powered resume analysis. It helps users understand how well their resume matches common Applicant Tracking System (ATS) requirements and suggests improvements.
 
-# ..... The main aim of this project is to help students and job seekers understand:
+#### ..... The main aim of this project is to help students and job seekers understand:
 
     . How strong their resume is
 
@@ -13,7 +13,7 @@
 
     . How ATS systems generally evaluate resumes
 
-# ..... This project is built as a mini AI application using Streamlit and Groq API and is suitable for internship or academic submission.
+#### ..... This project is built as a mini AI application using Streamlit and Groq API and is suitable for internship or academic submission.
 
     . What the Application Does
 
@@ -23,7 +23,7 @@
 
     . Calculates an ATS score out of 100 based on resume content
 
-# .... Shows section-wise ATS analysis:
+#### .... Shows section-wise ATS analysis:
 
   . Resume content
 
@@ -35,7 +35,7 @@
 
   . Projects
 
-# ..... Displays the status of each section as:
+#### ..... Displays the status of each section as:
 
   . No issues
 
