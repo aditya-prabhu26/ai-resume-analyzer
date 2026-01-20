@@ -74,9 +74,9 @@ AI-Resume-Reviewer/
 ├── app.py        # Main  file
 ├── README.md     # Project documentation
 
-# ▶️ How to Run the Project
+## ▶️ How to Run the Project
 
-  # 1️⃣ Install Python
+  ### 1️⃣ Install Python
 
       Make sure Python (version 3.9 or above) is installed on your system.
 
@@ -84,7 +84,7 @@ AI-Resume-Reviewer/
 
           python --version
 
-  # 2️⃣ Create a Virtual Environment (Optional)
+  ### 2️⃣ Create a Virtual Environment (Optional)
 
           python -m venv venv
 
@@ -92,24 +92,24 @@ AI-Resume-Reviewer/
 
           venv\Scripts\activate
 
-  # 3️⃣ Install Required Libraries
+  ### 3️⃣ Install Required Libraries
 
           pip install streamlit groq pdfplumber pillow pytesseract
 
-  # 4️⃣ Install Tesseract OCR
+  ### 4️⃣ Install Tesseract OCR
 
-    This is required for reading text from image resumes.
+      This is required for reading text from image resumes.
 
           Download from:
           https://github.com/UB-Mannheim/tesseract/wik
 
-# 5️⃣ Add Groq API Key
+   ### 5️⃣ Add Groq API Key
 
-  In app.py and replace the API key placeholder:
+      In app.py and replace the API key placeholder:
 
           GROQ_API_KEY = "YOUR_GROQ_API_KEY"
 
-  # 6️⃣ Run the Application
+  ### 6️⃣ Run the Application
           
           streamlit run app.py
 
