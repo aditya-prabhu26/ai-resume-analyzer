@@ -118,7 +118,7 @@ AI-Resume-Reviewer/
 
   . Click Analyze Resume
 
-   # View:
+   ##### View:
 
       . ATS score
 
