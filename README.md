@@ -1,6 +1,6 @@
-# AI Resume Reviewer
+# 📄 AI Resume Reviewer
 
-## About the Project
+## 📌 About the Project
 .... The AI Resume Reviewer is a web-based application that analyzes resumes and provides ATS-style evaluation using Artificial Intelligence.
 
 .... The application is built using Streamlit for the user interface and Groq API for AI-powered resume analysis. It helps users understand how well their resume matches common Applicant Tracking System (ATS) requirements and suggests improvements.
@@ -55,7 +55,7 @@
 
   . Final verdict
 
-## Technologies Used
+## 🛠 Technologies Used
 
     . Python – main programming language
 
@@ -67,16 +67,16 @@
 
     . pytesseract & Pillow – to extract text from image resumes
 
-## Project Structure
+## 📂 Project Structure
 
 AI-Resume-Reviewer/
 │
 ├── app.py        # Main  file
 ├── README.md     # Project documentation
 
-# How to Run the Project
+# ▶️ How to Run the Project
 
-  # ...... Step 1: Install Python
+  # 1️⃣ Install Python
 
       Make sure Python (version 3.9 or above) is installed on your system.
 
@@ -84,7 +84,7 @@ AI-Resume-Reviewer/
 
           python --version
 
-  # ......Step 2: Create a Virtual Environment (Optional)
+  # 2️⃣ Create a Virtual Environment (Optional)
 
           python -m venv venv
 
@@ -92,29 +92,28 @@ AI-Resume-Reviewer/
 
           venv\Scripts\activate
 
-  # ...... Step 3: Install Required Libraries
+  # 3️⃣ Install Required Libraries
 
           pip install streamlit groq pdfplumber pillow pytesseract
 
-  # ...... Step 4: Install Tesseract OCR
+  # 4️⃣ Install Tesseract OCR
 
     This is required for reading text from image resumes.
 
           Download from:
           https://github.com/UB-Mannheim/tesseract/wik
 
-
-# ...... Step 5: Add Groq API Key
+# 5️⃣ Add Groq API Key
 
   In app.py and replace the API key placeholder:
 
           GROQ_API_KEY = "YOUR_GROQ_API_KEY"
 
-  # ...... Step 6: Run the Application
+  # 6️⃣ Run the Application
           
           streamlit run app.py
 
-## How to Use the Application
+## 🧪 How to Use the Application
 
   . Upload your resume (PDF / JPG / PNG)
 
@@ -130,7 +129,7 @@ AI-Resume-Reviewer/
 
       . AI-generated resume feedback
 
-## Limitations
+## ⚠️ Limitations
 
   . ATS score is an approximation, not an official ATS result
 
@@ -138,7 +137,7 @@ AI-Resume-Reviewer/
 
   . Image resumes work best when text is clear
 
-## Future Enhancements
+## 🚀 Future Enhancements
 
   . Resume vs Job Description matching
 
@@ -148,7 +147,7 @@ AI-Resume-Reviewer/
 
   . Improved resume scoring logic
 
-## Conclusion
+## ✅ Conclusion
 
 This project shows how AI can be used to analyze resumes and give meaningful feedback.
 
