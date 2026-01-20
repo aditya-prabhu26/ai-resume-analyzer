@@ -1,183 +1,154 @@
-AI Resume Reviewer
-About the Project
+# AI Resume Reviewer
 
-The AI Resume Reviewer is a simple web application that analyzes resumes and gives feedback similar to an ATS (Applicant Tracking System).
+## About the Project
+.... The AI Resume Reviewer is a web-based application that analyzes resumes and provides ATS-style evaluation using Artificial Intelligence.
 
-The main aim of this project is to help students and job seekers understand:
+.... The application is built using Streamlit for the user interface and Groq API for AI-powered resume analysis. It helps users understand how well their resume matches common Applicant Tracking System (ATS) requirements and suggests improvements.
 
-How strong their resume is
+# ..... The main aim of this project is to help students and job seekers understand:
 
-Which sections need improvement
+    . How strong their resume is
 
-How ATS systems generally evaluate resumes
+    . Which sections need improvement
 
-This project is built as a mini AI application using Streamlit and Groq API and is suitable for internship or academic submission.
+    . How ATS systems generally evaluate resumes
 
-What the Application Does
+# ..... This project is built as a mini AI application using Streamlit and Groq API and is suitable for internship or academic submission.
 
-Allows the user to upload a resume in PDF or image format
+    . What the Application Does
 
-Extracts text automatically from the uploaded resume
+    . Allows the user to upload a resume in PDF or image format
 
-Calculates an ATS score out of 100 based on resume content
+    . Extracts text automatically from the uploaded resume
 
-Shows section-wise ATS analysis:
+    . Calculates an ATS score out of 100 based on resume content
 
-Resume content
+# .... Shows section-wise ATS analysis:
 
-Contact information
+  . Resume content
 
-Skills
+  . Contact information
 
-Experience
+  . Skills
 
-Projects
+  . Experience
 
-Displays the status of each section as:
+  . Projects
 
-No issues
+# ..... Displays the status of each section as:
 
-Minor issues
+  . No issues
 
-Needs improvement
+  . Minor issues
 
-Uses AI to generate detailed feedback such as:
+  . Needs improvement
 
-Strengths of the resume
+  . Uses AI to generate detailed feedback such as:
 
-Weaknesses
+  . Strengths of the resume
 
-Missing skills or sections
+  . Weaknesses
 
-Suggestions for improvement
+  . Missing skills or sections
 
-Final verdict
+  . Suggestions for improvement
 
-Technologies Used
+  . Final verdict
 
-Python – main programming language
+## Technologies Used
 
-Streamlit – for building the web interface
+    . Python – main programming language
 
-Groq API (LLaMA 3.1) – for AI-based resume feedback
+    . Streamlit – for building the web interface
 
-pdfplumber – to extract text from PDF resumes
+    . Groq API (LLaMA 3.1) – for AI-based resume feedback
 
-pytesseract & Pillow – to extract text from image resumes
+    . pdfplumber – to extract text from PDF resumes
 
-Project Structure
+    . pytesseract & Pillow – to extract text from image resumes
+
+## Project Structure
+
 AI-Resume-Reviewer/
 │
-├── app.py        # Main application file
+├── app.py        # Main  file
 ├── README.md     # Project documentation
 
-How the ATS Score Works
+# How to Run the Project
 
-The ATS score is calculated based on real resume factors such as:
+  # ...... Step 1: Install Python
 
-Presence of contact details (email and phone number)
+      Make sure Python (version 3.9 or above) is installed on your system.
 
-Skills section availability
+      Check version:
 
-Experience details
+          python --version
 
-Project information
+  # ......Step 2: Create a Virtual Environment (Optional)
 
-Overall resume length and content quality
+          python -m venv venv
 
-The score is not fixed and changes based on the resume uploaded.
+      Activate it:
 
-How to Run the Project
-Step 1: Install Python
+          venv\Scripts\activate
 
-Make sure Python (version 3.9 or above) is installed on your system.
+  # ...... Step 3: Install Required Libraries
 
-Check version:
+          pip install streamlit groq pdfplumber pillow pytesseract
 
-python --version
+  # ...... Step 4: Install Tesseract OCR
 
-Step 2: Create a Virtual Environment (Optional)
-python -m venv venv
+    This is required for reading text from image resumes.
 
-
-Activate it:
-
-Windows
-
-venv\Scripts\activate
+          Download from:
+          https://github.com/UB-Mannheim/tesseract/wik
 
 
-Mac / Linux
+# ...... Step 5: Add Groq API Key
 
-source venv/bin/activate
+  In app.py and replace the API key placeholder:
 
-Step 3: Install Required Libraries
-pip install streamlit groq pdfplumber pillow pytesseract
+          GROQ_API_KEY = "YOUR_GROQ_API_KEY"
 
-Step 4: Install Tesseract OCR
+  # ...... Step 6: Run the Application
+          
+          streamlit run app.py
 
-This is required for reading text from image resumes.
+## How to Use the Application
 
-Windows:
-Download from:
-https://github.com/UB-Mannheim/tesseract/wiki
+  . Upload your resume (PDF / JPG / PNG)
 
-Linux:
+  . Select the target job role
 
-sudo apt install tesseract-ocr
+  . Click Analyze Resume
 
+   # View:
 
-Mac:
+      . ATS score
 
-brew install tesseract
+      . Section-wise analysis
 
-Step 5: Add Groq API Key
+      . AI-generated resume feedback
 
-Open app.py and replace the API key placeholder:
+## Limitations
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+  . ATS score is an approximation, not an official ATS result
 
-Step 6: Run the Application
-streamlit run app.py
+  . Accuracy depends on resume clarity and formatting
 
+  . Image resumes work best when text is clear
 
-The app will open in your browser automatically.
+## Future Enhancements
 
-How to Use the Application
+  . Resume vs Job Description matching
 
-Upload your resume (PDF / JPG / PNG)
+  . Download ATS report as PDF
 
-Select the target job role
+  . Keyword optimization suggestions
 
-Click Analyze Resume
+  . Improved resume scoring logic
 
-View:
-
-ATS score
-
-Section-wise analysis
-
-AI-generated resume feedback
-
-Limitations
-
-ATS score is an approximation, not an official ATS result
-
-Accuracy depends on resume clarity and formatting
-
-Image resumes work best when text is clear
-
-Future Enhancements
-
-Resume vs Job Description matching
-
-Download ATS report as PDF
-
-Keyword optimization suggestions
-
-Improved resume scoring logic
-
-Conclusion
+## Conclusion
 
 This project shows how AI can be used to analyze resumes and give meaningful feedback.
-It is simple, practical, and useful for students preparing for jobs or internships.
+
