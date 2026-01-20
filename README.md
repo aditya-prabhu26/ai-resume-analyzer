@@ -1,9 +1,7 @@
 # 📄 AI Resume Reviewer
 
 ## 📌 About the Project
-.... The AI Resume Reviewer is a web-based application that analyzes resumes and provides ATS-style evaluation using Artificial Intelligence.
-
-.... The application is built using Streamlit for the user interface and Groq API for AI-powered resume analysis. It helps users understand how well their resume matches common Applicant Tracking System (ATS) requirements and suggests improvements.
+ The AI Resume Reviewer is a web-based application that analyzes resumes and provides ATS-style evaluation using Artificial Intelligence. The application is built using Streamlit for the user interface and Groq API for AI-powered resume analysis. It helps users understand how well their resume matches common Applicant Tracking System (ATS) requirements and suggests improvements.
 
 #### ..... The main aim of this project is to help students and job seekers understand:
 
