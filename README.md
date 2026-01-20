@@ -13,9 +13,8 @@
 
     . How ATS systems generally evaluate resumes
 
-#### ..... This project is built as a mini AI application using Streamlit and Groq API and is suitable for internship or academic submission.
 
-    . What the Application Does
+## ⚙️ What the Application Does
 
     . Allows the user to upload a resume in PDF or image format
 
